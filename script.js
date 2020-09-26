@@ -1,13 +1,13 @@
 
 //Creating arrays for all character.
-var lowerCaseChart = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-var upperCaseChart = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-var numberChart = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
-var specialChart = ["!", "@", "#", "$", "%", "^", "&", "*"];
-var passwordText = document.querySelector("#password");
-var generateBtn = document.querySelector("#generate");
+var lowerCaseChart = ["abcdefghijklmnopqrstuvwxyz"];
+var upperCaseChart = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+var numberChart = ["1234567890"];
+var specialChart = ["!@#$%^&*"];
 var possibleCharacters = "";
 var password = "";
+var passwordText = document.querySelector("#password");
+var generateBtn = document.querySelector("#generate");
 
 
 function writePassword(){
